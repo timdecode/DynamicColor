@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
   name: "DynamicColor",
   platforms: [
-	.iOS(.v11), .visionOS(.v1)
+    .iOS(.v11), .visionOS(.v1), .macOS(.v14)
   ],
   products: [
     .library(name: "DynamicColor", targets: ["DynamicColor"]),
